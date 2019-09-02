@@ -13,16 +13,19 @@ optional arguments:
   -h, --help  show this help message and exit
 ```
 
-orig: original lyrics
+`orig`: original lyrics
 
-trans: translated lyrics
+`trans`: translated lyrics
 
-merge: lyrics in "[original]/[translated]" type
+`merge`: lyrics in "[original]/[translated]" type
 
----
+You may need to install requests for the program to run: `pip3 install requests`
+
 Get the id of the music you are interested in: 
 
 Share -> Copy the link in the browser -> The number after `https://music.163.com/song?id=` should be the music id.
+
+---
 
 For example: `python3 lyric.py 533943763 merge`
 
