@@ -2,12 +2,16 @@
 Get NetEase music lyrics with Python3
 
 Usage: `lyric.py [-h] id format`
+
+```
 positional arguments:
   id          id of the music
+
   format      choose the format of the output: orig/trans/merge
 
 optional arguments:
   -h, --help  show this help message and exit
+```
 
 orig: original lyrics
 
