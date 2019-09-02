@@ -1,6 +1,8 @@
 # Enceladus
 Get NetEase music lyrics with Python3
 
+<img src="https://img.shields.io/badge/requests-2.22.0-green.svg">
+
 Usage: `lyric.py [-h] id format`
 
 ```
