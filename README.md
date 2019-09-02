@@ -10,14 +10,19 @@ optional arguments:
   -h, --help  show this help message and exit
 
 orig: original lyrics
+
 trans: translated lyrics
+
 merge: lyrics in "[original]/[translated]" type
 
 ---
+Get the id of the music you are interested in: 
+
+Share -> Copy the link in the browser -> The number after `https://music.163.com/song?id=` should be the music id.
 
 For example: `python3 lyric.py 533943763 merge`
 
-This would generate a txt lyric that meets the `lrc` file standard under the script executing folder.
+This would generate a txt lyric that meets the lrc file standard under the script executing folder.
 You may change the extension from `*.txt` to `*.lrc` manually if you wanna import it in other apps.
 
 If this program helps with your MAD/AMV production, please do not hesitate to give me stars. :smile:
